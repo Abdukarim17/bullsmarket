@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    /* padding:  */
+}
+header{
+    background-color: darkgreen;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: unset; */
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-middle-section{
+    flex: 1;
+    max-width: 850px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+
+}
+
+.header-middle-section .search-bar{
+    flex: 1;
+    width: 0;
+    font-size: 16px;
+    height: 38px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    border: none;
+
+}
+
+.search-button{
+    background-color: rgb(254, 189, 105);
+    border: none;
+    width: 45px;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    flex-shrink: 0;
+}
+
+.search-icon{
+    height: 22px;
+    margin-left: 2px;
+    margin-top: 3px;
+    
+}
+
+.header-right-section{
+    width: 100px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.account-icon{
+    width: 100%;
+    /* background-color: transparent;  */
+    color: red;
+}
+
+.register{
+    /* border: none; */
+    width: 60px;
+}
+
+.trending-word{
+    /* display: block; */
+    padding-top: 30px;
+    padding-left: 30px;
+    /* padding-bottom: 30px; */
+}
+
